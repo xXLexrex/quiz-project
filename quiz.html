@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My JavaScript Quiz</title>
+</head>
+<body>
+    <h1>JavaScript Quiz Game</h1>
+    <p id="scoreDisplay"></p>
+
+    <script src="quiz.js"></script>
+    <script>
+        let finalScore = quiz();
+        document.getElementById("scoreDisplay").innerHTML = "Your final score is: " + finalScore;
+    </script>
+</body>
+</html>
